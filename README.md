@@ -4,7 +4,7 @@
 This project addresses the challenges associated with product recognition through a two-stage pipeline. The proposed solution involves class-agnostic object detection in the first stage, followed by product recognition in the second stage using a K-NN similarity search. The process is designed to efficiently identify individual product items within an image.
 
 ## Proposed Approach
-![Figure 3.1: Multistage Process](path/to/figure_3.1.png)
+![Multistage Process](proposed.png)
 
 ### 1. Detection
 The first stage, detection, aims to obtain bounding boxes that accurately localize products in an image, providing a confidence score for each detection. To achieve this, a CNN-based object detector (Detector) is employed. The detector is trained on a large collection of annotated images, focusing on common product features shared across multiple items. This enables product-agnostic detection, making the detector versatile across various stores and products without the need for frequent retraining.
