@@ -44,5 +44,5 @@ For the detection stage, we employed a one-stage object detector called Yolov3. 
 ![Yolov3 bounding box](yolo.png)
 
 ## Result from Siamese Network
-Add information on the results obtained from the Siamese Network here.
+
 ![Yolov3 Sample Output](output.png)
